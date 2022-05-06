@@ -83,11 +83,6 @@ const Footer = () => (
             <a>{about.title}</a>
           </Link>
         </li>
-        <li>
-          <Link href={careers.link}>
-            <a>{careers.title}</a>
-          </Link>
-        </li>
       </CenteredFooter>
     </Section>
   </Background>
