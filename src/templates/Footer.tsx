@@ -6,7 +6,7 @@ import { Section } from '../layout/Section';
 import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
-const { contact, about, careers } = AppConfig.menu;
+const { contact, about } = AppConfig.menu;
 
 const Footer = () => (
   <Background color="bg-gray-100">

@@ -9,7 +9,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
-const { contact, about, careers } = AppConfig.menu;
+const { contact, about } = AppConfig.menu;
 
 const Hero = () => (
   <Background color="bg-gray-100">
