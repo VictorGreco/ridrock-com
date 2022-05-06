@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { Background } from '../background/Background';
 import { Button } from '../button/Button';
@@ -38,10 +39,10 @@ const Hero = () => (
           <>
             {'We break hard problems into\n'}
             <span className="text-primary-500">rocket solutions </span>
-            <img
+            <Image
               src="/assets/images/rocket_1f680.png"
-              width={50}
-              height={50}
+              width={45}
+              height={45}
             />
           </>
         }
